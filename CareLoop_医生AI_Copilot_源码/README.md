@@ -4,6 +4,12 @@
 
 > 重要：本仓库仅用于产品原型与方案验证，所有患者、指标和诊疗信息均为虚构演示数据，不可用于真实诊疗。
 
+## GitHub Pages 发布
+
+本版本已配置静态导出和 GitHub Actions。将全部文件上传到仓库 `wz20060801-gif/ai-copolot` 的 `main` 分支后，在仓库的 `Settings → Pages` 中把 `Source` 设置为 `GitHub Actions`。部署完成后访问：
+
+`https://wz20060801-gif.github.io/ai-copolot/`
+
 ## 已实现的体验
 
 - 医生工作台：风险分层、患者搜索、待办队列、今日接诊和 AI 晨间简报
