@@ -24,18 +24,19 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
+    "CareLoop_医生AI_Copilot_源码",
     "db",
     "drizzle",
     "examples",
     "worker",
+    "scripts",
+    "tests",
     "vite.config.ts",
     "drizzle.config.ts"
   ]
