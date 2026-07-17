@@ -1,9 +1,7 @@
-import type { NextConfig } from "next";
-
 const repositoryName = "ai-copolot";
 const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: "export",
   trailingSlash: true,
 
